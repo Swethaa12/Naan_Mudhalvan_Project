@@ -1,24 +1,32 @@
 # Naan_Mudhalvan_Project
 Naan Mudhalvan Applied Data Science Credit card fraud detection project
 #About the Project
+
+
 This Python program demonstrates how to build a fraud detection model
 using the Random Forest Classifier. The code imports necessary libraries,
 loads the dataset, preprocesses the data, handles imbalanced data using
 Synthetic Minority Over-sampling Technique (SMOTE), trains a Random
 Forest Classifier model, and evaluates its performance.
 #Built With
+
 Python
 pandas
 scikit-learn
 imbalanced-learn (imblearn)
+
+
 #Getting Started
+
 ##Prerequisites
 To run this code, you need to have Python installed on your system.
+
 ##Installation
 Clone the repository or download the fraud_detection.py file to your local
 machine.
 Install the required Python libraries using pip:
  pip install pandas scikit-learn imbalanced-learn
+ 
 #Usage
 1. Download the dataset from the source mentioned below and save it as
 `fraudTest.csv` in the same directory as the `fraud_detection.py` file.
