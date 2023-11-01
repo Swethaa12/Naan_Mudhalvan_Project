@@ -1,6 +1,6 @@
 # Naan_Mudhalvan_Project
 Naan Mudhalvan Applied Data Science Credit card fraud detection project
-#About the Project
+**About the Project**
 
 
 This Python program demonstrates how to build a fraud detection model
@@ -8,7 +8,7 @@ using the Random Forest Classifier. The code imports necessary libraries,
 loads the dataset, preprocesses the data, handles imbalanced data using
 Synthetic Minority Over-sampling Technique (SMOTE), trains a Random
 Forest Classifier model, and evaluates its performance.
-#Built With
+**Built With**
 
 Python
 pandas
@@ -16,18 +16,18 @@ scikit-learn
 imbalanced-learn (imblearn)
 
 
-#Getting Started
+**Getting Started**
 
-##Prerequisites
+**Prerequisites**
 To run this code, you need to have Python installed on your system.
 
-##Installation
+**Installation**
 Clone the repository or download the fraud_detection.py file to your local
 machine.
 Install the required Python libraries using pip:
  pip install pandas scikit-learn imbalanced-learn
  
-#Usage
+**Usage**
 1. Download the dataset from the source mentioned below and save it as
 `fraudTest.csv` in the same directory as the `fraud_detection.py` file.
 2. Open a terminal or command prompt and navigate to the directory
@@ -36,10 +36,11 @@ containing `fraud_detection.py`.
  python fraud_detection.py
 The script will load the dataset, preprocess it, train the Random Forest
 Classifier model, and evaluate its performance.
-#Dataset Source
+
+**Dataset Source**
 The dataset used in this project is named `fraudTest.csv`. You can obtain it
 from https://www.kaggle.com/datasets/kartik2112/fraud-detection
-#Code Description:
+**Code Description:**
 The provided Python code is designed for building a fraud detection model
 using the Random Forest Classifier. It encompasses various data
 preprocessing steps, feature engineering, imbalanced data handling, model
@@ -80,14 +81,15 @@ model's predictions and provides a classification report, including metrics
 like precision, recall, F1-score, and support for both classes. This allows for
 an assessment of the model's performance in detecting fraudulent
 transactions.
-#Importance:
+**Importance:**
 Fraud detection is of paramount importance in various industries, including
 banking, e-commerce, and healthcare. This code provides a foundational
 framework for building a fraud detection system. The Random Forest
 Classifier is a popular choice for such applications due to its ability to handle
 complex data and imbalanced datasets. Effective fraud detection can save
 organizations substantial financial losses and maintain trust with customers.
-#Specification:
+
+**Specification:**
 - The code expects a dataset named "fraudTest.csv" to be present in the
 same directory.
 - It is written in Python and relies on several libraries, including pandas,
